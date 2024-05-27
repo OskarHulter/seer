@@ -12,6 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
+    "bundle": "ANALYZE=true yarn build",
     "clean": "rm -rf .next && rm -rf dist && yarn cache clean && rm -rf node_modules"
   },
   "dependencies": {
@@ -23,9 +24,13 @@
     "geist": "^1.3.0",
     "highcharts": "11.4.3",
     "next": "^14.2.1",
+    "next-plausible": "^3.12.0",
     "plotly.js-dist-min": "2.32.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-financial-charts": "^2.0.1",
+    "reactflow": "^11.11.3",
+    "recharts": "^2.12.7",
     "zod": "^3.23.3"
   },
   "devDependencies": {
